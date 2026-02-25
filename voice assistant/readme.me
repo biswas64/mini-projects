@@ -1,1 +1,35 @@
+# 📘 Voice Assistant Project
 
+A simple **Python voice assistant** that can:
+
+- Tell the **current time, date, and day**  
+- Get **current weather and temperature** for Kathmandu  
+- **Open websites** or **search Google** based on voice commands  
+- Respond using **text-to-speech** through `mike_speaker`  
+
+---
+
+## 🛠 Features
+
+1. **Weather Info**  
+   - Uses [OpenWeatherMap API](https://openweathermap.org/)  
+   - Returns temperature in **Celsius** and general weather condition  
+
+2. **Time & Date**  
+   - Can respond with current **time**, **date**, or **day**  
+
+3. **Web Actions**  
+   - Open a website: `"open <website>"`  
+   - Search Google: `"search <query>"`  
+
+4. **Voice Activation**  
+   - Continuously listens for voice commands using `ms.mikeControl()`  
+   - Stop assistant by saying `"deactivate"`  
+
+---
+
+## 💻 Requirements
+
+- Python 3.x  
+- webbrowser
+- requests
